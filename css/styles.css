@@ -1,0 +1,327 @@
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img 
+  {
+      width: 100%;
+ }
+body
+{
+	overflow-x: hidden;
+}
+#caro
+ {
+ 	margin-top: 40px;
+ 	width: 100%;
+ }
+#logo
+{
+	color: white;
+	margin-top: 12px;
+	margin-left: 17px;
+	font-size: 29px;
+	position: absolute;
+}
+#mainNavbar ul li a
+{
+	border: 1px solid transparent;
+	border-radius: 16px;
+	margin: 10px 10px;
+	padding: 6px 10px;
+	color: white;
+	font-size: 15px;
+	font-family: century gothic;
+}
+#mainNavbar ul li a:hover
+{
+	color: red;
+    transition: 0.4s;
+}
+
+hr
+{
+	width: 300px;
+}
+.photography
+{
+	font-family: lato;
+	color:#ff6f00; 
+}
+.padding
+{
+	padding-top: 30px;
+}
+.art
+{
+	font-family: lato;
+	color: black;
+}
+#mainNavbar .dropdown-menu
+{
+	color: red;
+	background-color: black;
+}
+#mainNavbar .dropdown-menu li a:hover
+{
+	color: red;
+    transition: 0.6s;
+    border-color: red;
+    background-color: black;
+}
+@media (max-width: 760px)
+{
+	#try
+	{
+		margin-left: 70%;
+	}
+	hr
+	{
+		width: 300px;
+
+	}
+	h1
+	{
+		color: blue;
+	}
+
+	.padding
+	{
+		padding-top:0px;
+	}
+	.jumbotron .myinfo, .jumbotron .con, .jumbotron .quote, .art, .endtext
+	{
+		font-size: 18px;
+	}
+	.photography
+	{
+		font-size: 19px;
+		color:#ff6f00;
+	
+	}
+	.glyphicon-camera, .glyphicon-user, .glyphicon-phone, .glyphicon-sunglasses
+	{
+		color:#ff6f00;
+	}
+	#try
+	{
+		margin-left: 100%;
+	}
+}
+}
+@media (max-width: 500px)
+{
+	.jumbotron .myinfo, .jumbotron .con, .jumbotron .quote, .art, .endtext
+	{
+		font-size: 15px;
+	}
+	#try
+	{
+		margin-left: 60%;
+	}
+}
+@media (max-width: 400px)
+{
+	.jumbotron .myinfo, .jumbotron .con, .jumbotron .quote, .art, .endtext,
+	{
+		font-size: 10px;
+	}
+	#try
+	{
+		margin-left: 9%;
+	}
+}
+
+.jumbotron 
+{
+	margin-top: 50px;
+	background-image: url(images/home.png);
+}
+#jum
+{
+	margin-top: 0px;
+
+}
+.mypic
+{
+	height: 140px;
+	width: 140px;
+	border: 4px solid transparent;
+	cursor: pointer;
+}
+.mypic:hover
+{
+	border-color: #ff6f00;
+	transition: 0.5s;
+}
+.link:hover
+{
+	color: #ff6f00;
+}
+.style
+ { 
+    background-color: #2f2f2f;
+    color: #ffffff;
+    font-family: open sans;
+    font-size: 10px;
+ }
+ .contact
+ {
+ 	color: white;
+ 	background-color: black;
+ 	border: 1px solid transparent;
+ 	font-family: cetury gothic;
+ }
+  .contact:hover
+ {
+ 	color: black;
+ 	background-color: white;
+ 	border: 1px solid black;
+ 	transition: 0.4s;
+ }
+.sub
+ {
+ 	font-family: lato;
+ 	font-size: 15px;
+ }
+ .footer
+ {
+ 	margin-bottom: -10px;
+ 	height: 270px;
+ 	width: 00px;
+ }
+ .footer1 { 
+    background-color: #2f2f2f;
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.footer_a, .footer_a1
+{
+	color: white;
+	font-size: 16px;
+}
+.footer_a:hover
+{
+	color: white;
+}
+.footer_a1:hover
+{
+	color: red;
+	transition: 0.6s;
+}
+.artquote
+{
+	width: 90px;
+	height: 90px;
+	border: 6px solid transparent;
+}
+.artquote:hover
+{
+	transition: 0.9s;
+	border-color: #ff6f00;
+}
+.home
+{
+	width: 100%;
+	margin-top: 50px;
+	margin-left: 0px;
+}
+.glyphicon-camera, .glyphicon-user, .glyphicon-phone, .glyphicon-sunglasses
+{
+	font-size: 25px;
+	color: #ff6f00;
+}
+.fa-facebook, .fa-instagram, .fa-google, .fa-github, .fa-envelope-o
+{
+	color: grey;
+	margin-left: 10px;
+	cursor: pointer;
+}
+#button:hover
+{
+	transition: 0.5s;
+}
+.fa-github:hover
+{
+	color: violet;
+	transition: 0.9s;
+}
+.fa-envelope-o:hover
+{
+	color: red;
+	transition: 0.9s;
+}
+.fa-instagram:hover
+{
+	color: brown;
+	transition: 0.9s;
+}
+.fa-facebook:hover
+{
+	color: 	blue;
+	transition: 0.9s;
+}
+#link
+{
+	height: 70%;
+	width: 90%;
+}
+#try
+{
+	font-family: century gothic;
+	color: white;
+	background-color: black;
+	font-size: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	border-radius: 5px;
+	position: center;
+	text-align: center;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	border: 1px solid black;
+}
+#try:hover
+{
+	transition: 0.5s;
+	color: black;
+	border: 1px solid black;
+	background-color: transparent;
+}
+.gallery {
+  margin: 0 auto;
+  background: #fff;
+}
+
+.gallery > div {
+  position: relative;
+  float: left;
+}
+
+.gallery > div > img {
+  display: block;
+  transition: .1s transform;
+  transform: translateZ(0);
+}
+.gallery > div:hover {
+  z-index: 1;
+}
+
+.gallery > div:hover > img {
+  transform: scale(1.1,1.1);
+  transition: .3s transform;
+}
+.cf:before, .cf:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.cf:after {
+  clear: both;
+}
+
+
+
+
+
+
+
+        
