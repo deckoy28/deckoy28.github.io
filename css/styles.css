@@ -42,7 +42,7 @@ hr
 }
 .photography
 {
-	font-family: lato;
+	font-family: century gothic;
 	color:#ff6f00; 
 }
 .padding
@@ -51,7 +51,7 @@ hr
 }
 .art
 {
-	font-family: lato;
+	font-family: century gothic;
 	color: black;
 }
 #mainNavbar .dropdown-menu
@@ -167,7 +167,7 @@ hr
  	color: white;
  	background-color: black;
  	border: 1px solid transparent;
- 	font-family: cetury gothic;
+ 	font-family: century gothic;
  }
   .contact:hover
  {
@@ -178,7 +178,7 @@ hr
  }
 .sub
  {
- 	font-family: lato;
+ 	font-family: century gothic;
  	font-size: 15px;
  }
  .footer
